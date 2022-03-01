@@ -1,0 +1,25 @@
+@import 'modern-normalize';
+
+.--visually-hidden {
+  border: 0px;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+body {
+  font-family: 'Helvetica', Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: red;
+}
